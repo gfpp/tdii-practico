@@ -28,3 +28,16 @@ struct termios
 
 Para utilizar el modo no-canónico de la terminal se debe modificar el campo `c_lflag`. [Local Modes](https://www.gnu.org/software/libc/manual/html_node/Local-Modes.html#Local-Modes)
 
+## Funciones
+
+  * `tcgetattr`: para obtener los parámetros actuales de la terminal. Prototipo de función:
+```
+int tcgetattr(int fd, struct termios *termios_p);
+```
+  * `tcsetattr`: para configurar los parámetros a una terminal. Prototipo de función:
+```
+int tcsetattr(int fd, int optional_actions, const struct termios *termios_p);
+```
+(para más ayuda `> man 3 tcsetattr`).
+
+
