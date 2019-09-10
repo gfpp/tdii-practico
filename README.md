@@ -12,4 +12,6 @@ El material original se encuentra en [wiki de TDII](https://test1.ciii.frc.utn.e
 ## Links útiles
  * [Pinout de la Raspberry Pi](https://pinout.xyz/pinout/wiringpi#)
  * [Biblioteca Wiring Pi](http://wiringpi.com/)
+ * [Libro _Digital Design and Computer Architecture - ARM Edition_](https://booksite.elsevier.com/9780128000564/)
+ 
 
