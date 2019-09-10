@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
   }
 
   /* Wiring Pi GPIO configuration */
-  iringPiSetupGpio();
+  wiringPiSetupGpio();
   pinMode((int)gpio, INPUT);
 
   printf("Leyendo GPIO %d...\n", gpio);
