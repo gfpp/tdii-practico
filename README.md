@@ -4,7 +4,7 @@
  * [Ejemplo de proyecto en lenguale C y ensamblador](ejemplo-c-asm.md)
  * [Programación de la terminal en Linux](terminales.md)
  * [Manejo de GPIO mediante sysfs](sysfs.md)
- * [Mapa de memoria de la RPi](memmap.md)
+ * [Mapeo de memoria de entrada/salida](mapeo-entrada-salida.md)
 
 
 El material original se encuentra en [wiki de TDII](https://test1.ciii.frc.utn.edu.ar/TecnicasDigitalesII/WebHome/TrabajosPracticos/Practico_02).
