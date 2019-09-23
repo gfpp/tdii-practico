@@ -13,5 +13,6 @@ El material original se encuentra en [wiki de TDII](https://test1.ciii.frc.utn.e
  * [Pinout de la Raspberry Pi](https://pinout.xyz/pinout/wiringpi#)
  * [Biblioteca Wiring Pi](http://wiringpi.com/)
  * [Libro _Digital Design and Computer Architecture - ARM Edition_](https://booksite.elsevier.com/9780128000564/)
+ * [Non-blocking user input in loop without ncurses](https://web.archive.org/web/20180401093525/http://cc.byexamples.com/2007/04/08/non-blocking-user-input-in-loop-without-ncurses/)
  
 
