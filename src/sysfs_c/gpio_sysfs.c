@@ -6,7 +6,7 @@ int openGpio(int gpio, int dir)
   int fd;
   int mode;
 
-  // Export GPIO
+  /* Export GPIO */
   fd = open("/sys/class/gpio/export", O_WRONLY);
   if(fd == -1)
   {
@@ -18,7 +18,7 @@ int openGpio(int gpio, int dir)
   write(fd, buf, strlen(buf));
   close(fd);
 
-  // Direction
+  /* Direction */
   sprintf(buf, "/sys/class/gpio/gpio%d/direction", gpio);
   fd = open(buf, O_WRONLY);
   if(fd == -1)
@@ -39,7 +39,7 @@ int openGpio(int gpio, int dir)
   }
   close(fd);
 
-  // Open GPIO for read/write
+  /* Open GPIO for read/write */
   sprintf(buf, "/sys/class/gpio/gpio%d/value", gpio);
   fd = open(buf, mode);
   if(fd == -1)
