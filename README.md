@@ -5,6 +5,7 @@
  * [Programación de la terminal en Linux](terminales.md)
  * [Manejo de GPIO mediante sysfs](sysfs.md)
  * [Mapeo de memoria de entrada/salida](mapeo-entrada-salida.md)
+ * [Configuración de la UART](config-uart.md)
 
 
 El material original se encuentra en [wiki de TDII](https://test1.ciii.frc.utn.edu.ar/TecnicasDigitalesII/WebHome/TrabajosPracticos/Practico_02).
